@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+@MainActor
+class EpisodeDetailViewModel: ObservableObject {
+    let episode: Episode
+    
+    init(episode: Episode) {
+        self.episode = episode
+    }
+}
