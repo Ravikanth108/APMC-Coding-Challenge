@@ -11,7 +11,7 @@ import SwiftUI
 struct APMCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            EpisodesListView(viewModel: EpisodesViewModel())
+                    }
     }
 }

@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3DFDA9BA2D51682200BC6039 /* APMCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9B92D51682200BC6039 /* APMCApp.swift */; };
-		3DFDA9BC2D51682200BC6039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9BB2D51682200BC6039 /* ContentView.swift */; };
 		3DFDA9BE2D51682300BC6039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDA9BD2D51682300BC6039 /* Assets.xcassets */; };
 		3DFDA9C12D51682300BC6039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDA9C02D51682300BC6039 /* Preview Assets.xcassets */; };
-		3DFDA9CB2D51682300BC6039 /* APMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9CA2D51682300BC6039 /* APMCTests.swift */; };
 		3DFDA9D52D51682400BC6039 /* APMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9D42D51682400BC6039 /* APMCUITests.swift */; };
 		3DFDA9D72D51682400BC6039 /* APMCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9D62D51682400BC6039 /* APMCUITestsLaunchTests.swift */; };
 		3DFDA9E42D5169BD00BC6039 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DFDA9E32D5169BD00BC6039 /* README.md */; };
@@ -23,6 +21,14 @@
 		3DFDA9F72D51CAE300BC6039 /* EpisodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9F62D51CAE300BC6039 /* EpisodeRow.swift */; };
 		3DFDA9F92D51CAFA00BC6039 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9F82D51CAFA00BC6039 /* VideoPlayerView.swift */; };
 		3DFDA9FB2D51CB2D00BC6039 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9FA2D51CB2D00BC6039 /* NetworkService.swift */; };
+		3DFDA9FE2D528E3D00BC6039 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9FD2D528E3D00BC6039 /* TimeFormatter.swift */; };
+		3DFDAA002D52EADD00BC6039 /* EpisodeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDA9FF2D52EADC00BC6039 /* EpisodeServiceTests.swift */; };
+		3DFDAA022D52EE7B00BC6039 /* EpisodesListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA012D52EE7B00BC6039 /* EpisodesListUITests.swift */; };
+		3DFDAA042D52F23400BC6039 /* MockEpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA032D52F23400BC6039 /* MockEpisodeService.swift */; };
+		3DFDAA062D52F2E400BC6039 /* MockEpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA052D52F2E400BC6039 /* MockEpisodesViewModel.swift */; };
+		3DFDAA082D52F35C00BC6039 /* MockEpisodeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA072D52F35C00BC6039 /* MockEpisodeServiceTests.swift */; };
+		3DFDAA0A2D52F3B100BC6039 /* MockEpisodesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA092D52F3B100BC6039 /* MockEpisodesViewModelTests.swift */; };
+		3DFDAA0C2D52FAC600BC6039 /* EpisodesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFDAA0B2D52FAC600BC6039 /* EpisodesUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +51,9 @@
 /* Begin PBXFileReference section */
 		3DFDA9B62D51682200BC6039 /* APMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFDA9B92D51682200BC6039 /* APMCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMCApp.swift; sourceTree = "<group>"; };
-		3DFDA9BB2D51682200BC6039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DFDA9BD2D51682300BC6039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFDA9C02D51682300BC6039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DFDA9C62D51682300BC6039 /* APMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DFDA9CA2D51682300BC6039 /* APMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMCTests.swift; sourceTree = "<group>"; };
 		3DFDA9D02D51682400BC6039 /* APMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFDA9D42D51682400BC6039 /* APMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMCUITests.swift; sourceTree = "<group>"; };
 		3DFDA9D62D51682400BC6039 /* APMCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMCUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -62,6 +66,14 @@
 		3DFDA9F62D51CAE300BC6039 /* EpisodeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRow.swift; sourceTree = "<group>"; };
 		3DFDA9F82D51CAFA00BC6039 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		3DFDA9FA2D51CB2D00BC6039 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3DFDA9FD2D528E3D00BC6039 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		3DFDA9FF2D52EADC00BC6039 /* EpisodeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeServiceTests.swift; sourceTree = "<group>"; };
+		3DFDAA012D52EE7B00BC6039 /* EpisodesListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListUITests.swift; sourceTree = "<group>"; };
+		3DFDAA032D52F23400BC6039 /* MockEpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEpisodeService.swift; sourceTree = "<group>"; };
+		3DFDAA052D52F2E400BC6039 /* MockEpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEpisodesViewModel.swift; sourceTree = "<group>"; };
+		3DFDAA072D52F35C00BC6039 /* MockEpisodeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEpisodeServiceTests.swift; sourceTree = "<group>"; };
+		3DFDAA092D52F3B100BC6039 /* MockEpisodesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEpisodesViewModelTests.swift; sourceTree = "<group>"; };
+		3DFDAA0B2D52FAC600BC6039 /* EpisodesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +125,14 @@
 		3DFDA9B82D51682200BC6039 /* APMC */ = {
 			isa = PBXGroup;
 			children = (
-				3DFDA9B92D51682200BC6039 /* APMCApp.swift */,
-				3DFDA9BB2D51682200BC6039 /* ContentView.swift */,
+				3DFDAA0D2D53025B00BC6039 /* App */,
 				3DFDA9E52D51C7D300BC6039 /* Models */,
-				3DFDA9E62D51C7E600BC6039 /* ViewModels */,
 				3DFDA9E72D51C81700BC6039 /* Views */,
-				3DFDA9EA2D51C88300BC6039 /* Resources */,
-				3DFDA9E92D51C86E00BC6039 /* Utilities */,
+				3DFDA9E62D51C7E600BC6039 /* ViewModels */,
 				3DFDA9E82D51C83F00BC6039 /* Services */,
+				3DFDA9FC2D528E1E00BC6039 /* Extensions */,
+				3DFDA9E92D51C86E00BC6039 /* Utilities */,
+				3DFDA9EA2D51C88300BC6039 /* Resources */,
 				3DFDA9BF2D51682300BC6039 /* Preview Content */,
 			);
 			path = APMC;
@@ -137,7 +149,9 @@
 		3DFDA9C92D51682300BC6039 /* APMCTests */ = {
 			isa = PBXGroup;
 			children = (
-				3DFDA9CA2D51682300BC6039 /* APMCTests.swift */,
+				3DFDA9FF2D52EADC00BC6039 /* EpisodeServiceTests.swift */,
+				3DFDAA072D52F35C00BC6039 /* MockEpisodeServiceTests.swift */,
+				3DFDAA092D52F3B100BC6039 /* MockEpisodesViewModelTests.swift */,
 			);
 			path = APMCTests;
 			sourceTree = "<group>";
@@ -147,6 +161,8 @@
 			children = (
 				3DFDA9D42D51682400BC6039 /* APMCUITests.swift */,
 				3DFDA9D62D51682400BC6039 /* APMCUITestsLaunchTests.swift */,
+				3DFDAA012D52EE7B00BC6039 /* EpisodesListUITests.swift */,
+				3DFDAA0B2D52FAC600BC6039 /* EpisodesUITests.swift */,
 			);
 			path = APMCUITests;
 			sourceTree = "<group>";
@@ -164,6 +180,7 @@
 			children = (
 				3DFDA9ED2D51C9E100BC6039 /* EpisodesViewModel.swift */,
 				3DFDA9EF2D51CA0000BC6039 /* EpisodeDetailViewModel.swift */,
+				3DFDAA052D52F2E400BC6039 /* MockEpisodesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -182,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				3DFDA9FA2D51CB2D00BC6039 /* NetworkService.swift */,
+				3DFDAA032D52F23400BC6039 /* MockEpisodeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -208,6 +226,22 @@
 				3DFDA9F82D51CAFA00BC6039 /* VideoPlayerView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		3DFDA9FC2D528E1E00BC6039 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDA9FD2D528E3D00BC6039 /* TimeFormatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DFDAA0D2D53025B00BC6039 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DFDA9B92D51682200BC6039 /* APMCApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,13 +377,15 @@
 			files = (
 				3DFDA9FB2D51CB2D00BC6039 /* NetworkService.swift in Sources */,
 				3DFDA9F22D51CA7F00BC6039 /* EpisodesListView.swift in Sources */,
-				3DFDA9BC2D51682200BC6039 /* ContentView.swift in Sources */,
+				3DFDAA042D52F23400BC6039 /* MockEpisodeService.swift in Sources */,
 				3DFDA9EC2D51C9AD00BC6039 /* Episode.swift in Sources */,
 				3DFDA9F42D51CA9B00BC6039 /* EpisodeDetailView.swift in Sources */,
 				3DFDA9F72D51CAE300BC6039 /* EpisodeRow.swift in Sources */,
+				3DFDA9FE2D528E3D00BC6039 /* TimeFormatter.swift in Sources */,
 				3DFDA9F92D51CAFA00BC6039 /* VideoPlayerView.swift in Sources */,
 				3DFDA9EE2D51C9E100BC6039 /* EpisodesViewModel.swift in Sources */,
 				3DFDA9BA2D51682200BC6039 /* APMCApp.swift in Sources */,
+				3DFDAA062D52F2E400BC6039 /* MockEpisodesViewModel.swift in Sources */,
 				3DFDA9F02D51CA0000BC6039 /* EpisodeDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DFDA9CB2D51682300BC6039 /* APMCTests.swift in Sources */,
+				3DFDAA0A2D52F3B100BC6039 /* MockEpisodesViewModelTests.swift in Sources */,
+				3DFDAA082D52F35C00BC6039 /* MockEpisodeServiceTests.swift in Sources */,
+				3DFDAA002D52EADD00BC6039 /* EpisodeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +405,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFDA9D52D51682400BC6039 /* APMCUITests.swift in Sources */,
+				3DFDAA0C2D52FAC600BC6039 /* EpisodesUITests.swift in Sources */,
+				3DFDAA022D52EE7B00BC6039 /* EpisodesListUITests.swift in Sources */,
 				3DFDA9D72D51682400BC6039 /* APMCUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
