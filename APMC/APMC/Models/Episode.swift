@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Episode: Identifiable, Decodable {
+    let id: String
+    let title: String
+    let description: String?
+    let videoUrl: String
+    let duration: Int
+}
+
+        
